@@ -1,0 +1,107 @@
+@font-face {
+  font-family: main-font;
+  src: url(static/fonts/ahellya.ttf);
+}
+
+@font-face {
+  font-family: title-font;
+  src: url(static/fonts/novelist.otf);
+}
+
+
+body, html {
+  height: 100%;
+  background-color: #f0f0f0;
+  font-family: main-font;
+  font-size: 15px;
+}
+
+
+.top-navigation {
+  border-radius: 5px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+.top-navigation ul {
+  font-size: 0;
+  list-style-type: none;
+  color: #823591;
+}
+.top-navigation ul li {
+  font-family: main-font;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #333;
+  display: inline-block;
+  padding: 15px;
+  position: relative;
+}
+.top-navigation ul li ul {
+  display: none;
+}
+.top-navigation ul li:hover {
+  cursor: pointer;
+  background-color: #f2f2f2;
+}
+.top-navigation ul li:hover ul {
+  display: block;
+  margin-top: 15px;
+  width: 200px;
+  left: 0px;
+  position: absolute;
+}
+.top-navigation ul li:hover ul li {
+  display: block;
+  background-color: #e7e7e7;
+}
+.top-navigation ul li:hover ul li:hover {
+  background-color: #e0e0e0;
+}
+
+
+.content-wrapper {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.post-block {
+  min-width: 600px;
+  max-width: 600px;
+  padding: 25px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  font-family: title-font;
+  font-size: 70px;
+  color: #830404;
+  justify-content: center;
+  display: flex;
+  margin: 0;
+}
+p.main-pic {
+  justify-content: center;
+  display: flex;
+}
+.book-cover {
+  width:100%;
+  max-width:300px;
+}
+
+p.date {
+  text-align: right;
+}
+p.text {
+  text-align: justify;
+  margin: 0;
+}
+p.stars {
+  text-align: center;
+  color: #DAC22A;
+  font-family: title-font;
+  font-size: 35px;
+}
