@@ -1,11 +1,11 @@
 @font-face {
   font-family: main-font;
-  src: url(static/fonts/ahellya.ttf);
+  src: url(fonts/ahellya.ttf);
 }
 
 @font-face {
   font-family: title-font;
-  src: url(static/fonts/novelist.otf);
+  src: url(fonts/novelist.otf);
 }
 
 

@@ -4,6 +4,7 @@
     <meta charset="utf-8"/>
     <title>Book club</title>
     <link href="static/main.css" rel="stylesheet" type="text/css"/>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 </head>
 <body>
 
@@ -12,39 +13,46 @@ TODO ico
 TODO book home page link
 TODO timeline
 TODO github pages
-TODO backend ??? like json data representation + js parsers
+TODO ts parser
+TODO stars
+TODO year as db name
 -->
 
 <div class="top-navigation">
     <ul>
         <li>🕮</li>
-<!--        <li>Ранее <i class="fa fa-angle-down"></i>-->
-<!--            <ul>-->
-<!--                <li>2023</li>-->
-<!--            </ul>-->
-<!--        </li>-->
+        <!--        <li>Ранее <i class="fa fa-angle-down"></i>-->
+        <!--            <ul>-->
+        <!--                <li>2023</li>-->
+        <!--            </ul>-->
+        <!--        </li>-->
     </ul>
 </div>
 
-
 <div class="content-wrapper">
-    <div class="post-block">
-        <h1>title</h1>
-        <p class="main-pic">
-            <img src="https://cdn.eksmo.ru/v2/ITD000000001153897/COVER/cover1__w820.jpg" class="book-cover">
-        </p>
-        <p class="date">May, 2014</p>
-        <p class="text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum
-        </p>
-        <p class="stars">
-            ★★★★★★★★☆☆
-        </p>
-    </div>
+    <div class="posts"></div>
+    <script>
+    $.getJSON('db/test.json', function(data) {
+        var text = "";
+
+        books = data.books
+
+        for (let i = 0; i < books.length; i++) {
+            text = text + `<div class="post-block">`
+            text = text + `<h1>${books[i].title}</h1>`
+            text = text + `
+            <p class="main-pic">
+                <img src="${books[i].main_pic}" class="book-cover">
+            </p>`
+            text = text + `<p class="date">${books[i].ts_end}</p>`
+            text = text + `<p class="text">${books[i].description}</p>`
+
+            text = text + `</div><br>`
+        }
+
+        $(".posts").html(text);
+    });
+    </script>
 </div>
 
 </body>
