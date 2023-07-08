@@ -57,6 +57,10 @@ body, html {
 .top-navigation ul li:hover ul li:hover {
   background-color: #e0e0e0;
 }
+.top-navigation a {
+    text-decoration: none;
+    color: inherit;
+}
 
 
 .content-wrapper {

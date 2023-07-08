@@ -10,49 +10,27 @@
 
 <!--
 TODO ico
-TODO book home page link
 TODO timeline
-TODO github pages
 TODO stars
-TODO year as db name
 -->
 
 <div class="top-navigation">
     <ul>
-        <li>🕮</li>
-        <!--        <li>Ранее <i class="fa fa-angle-down"></i>-->
-        <!--            <ul>-->
-        <!--                <li>2023</li>-->
-        <!--            </ul>-->
-        <!--        </li>-->
+        <li><a href=".">🕮</a></li>
+<!--        <li>Ранее <i class="fa fa-angle-down"></i>-->
+<!--            <ul>-->
+<!--                <li>2023</li>-->
+<!--            </ul>-->
+<!--        </li>-->
     </ul>
 </div>
 
 <div class="content-wrapper">
     <div class="posts"></div>
-    <script>
-    $.getJSON('db/test.json', function(data) {
-        var text = "";
-
-        books = data.books
-
-        for (let i = 0; i < books.length; i++) {
-            text = text + `<div class="post-block">`
-            text = text + `<h1>${books[i].title}</h1>`
-            text = text + `
-            <p class="main-pic">
-                <img src="${books[i].main_pic}" class="book-cover">
-            </p>`
-            text = text + `<p class="date">${books[i].ts_end}</p>`
-            text = text + `<p class="text">${books[i].description}</p>`
-
-            text = text + `</div><br>`
-        }
-
-        $(".posts").html(text);
-    });
-    </script>
 </div>
 
 </body>
+
+<script src="index.js"></script>
+
 </html>
