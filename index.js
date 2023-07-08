@@ -35,7 +35,8 @@ async function fillPosts() {
         text = text + `<p class="annotation">${books[i].annotation}</p>`;
 
         for (let j = 0; j < books[i].quotes.length; j++) {
-            text = text + `<blockquote>${books[i].quotes[j]}</blockquote>`;
+            quote = books[i].quotes[j].replaceAll('\n', '<br>');
+            text = text + `<blockquote>${quote}</blockquote>`;
         }
 
         text = text + `</div><br>`;

@@ -106,6 +106,7 @@ p.main-pic {
 
 p.date {
   text-align: right;
+  font-weight: bold;
 }
 p.annotation {
   text-align: justify;
@@ -120,6 +121,8 @@ p.stars {
 blockquote {
   font-size: 13px;
   margin-left: 0px;
+  margin-right: 0px;
   border-left: 4px solid #a5d4a6;
   padding-left: 8px;
+  text-align: justify;
 }
