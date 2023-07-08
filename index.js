@@ -48,7 +48,7 @@ async function fillPosts() {
             <img src="${books[i].main_pic}" class="book-cover">
         </p>`;
         text = text + `<p class="date">${books[i].ts_end}</p>`;
-        text = text + `<p class="text">${books[i].description}</p>`;
+        text = text + `<p class="text">${books[i].annotation}</p>`;
 
         text = text + `</div><br>`;
     }
