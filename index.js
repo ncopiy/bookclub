@@ -1,6 +1,6 @@
-async function fetchPosts(year, posts) {
+async function fetchCurrentPosts(posts) {
     try {
-        const response = await fetch(`db/${year}.json`);
+        const response = await fetch(`db/current.json`);
         if (!response.ok) {
             return null;
         }
@@ -11,27 +11,10 @@ async function fetchPosts(year, posts) {
     return posts;
 }
 
-async function fetchLastPossiblePosts() {
-    maxErrorsCount = 10;
-
+async function fillPosts() {
     var posts = {};
 
-    year = new Date().getFullYear();
-
-    while (maxErrorsCount) {
-        posts = await fetchPosts(year);
-        if (posts !== null) {
-            break;
-        }
-        year = year - 1;
-        maxErrorsCount = maxErrorsCount - 1;
-    }
-
-    return posts;
-}
-
-async function fillPosts() {
-    posts = await fetchLastPossiblePosts();
+    posts = await fetchCurrentPosts();
     if (posts == null) {
         return
     }
