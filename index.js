@@ -32,10 +32,10 @@ async function fillPosts() {
             <img src="${books[i].main_pic}" class="book-cover">
         </p>`;
         text = text + `<p class="date">${books[i].ts_end}</p>`;
-        text = text + `<p class="annotation">${books[i].annotation}</p>`;
+        text = text + `<p class="annotation">${formatEndOfStrings(books[i].annotation)}</p><br>`;
 
         for (let j = 0; j < books[i].quotes.length; j++) {
-            quote = books[i].quotes[j].replaceAll('\n', '<br>');
+            quote = formatEndOfStrings(books[i].quotes[j]);
             text = text + `<blockquote>${quote}</blockquote>`;
         }
 
