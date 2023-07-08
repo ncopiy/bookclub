@@ -26,12 +26,17 @@ async function fillPosts() {
     for (let i = 0; i < books.length; i++) {
         text = text + `<div class="post-block">`;
         text = text + `<h1>${books[i].title}</h1>`;
+        text = text + `<h2>${books[i].author}</h2>`;
         text = text + `
         <p class="main-pic">
             <img src="${books[i].main_pic}" class="book-cover">
         </p>`;
         text = text + `<p class="date">${books[i].ts_end}</p>`;
-        text = text + `<p class="text">${books[i].annotation}</p>`;
+        text = text + `<p class="annotation">${books[i].annotation}</p>`;
+
+        for (let j = 0; j < books[i].quotes.length; j++) {
+            text = text + `<blockquote>${books[i].quotes[j]}</blockquote>`;
+        }
 
         text = text + `</div><br>`;
     }

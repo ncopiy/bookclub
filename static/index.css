@@ -11,7 +11,7 @@
 
 body, html {
   height: 100%;
-  background-color: #f0f0f0;
+  background-color: #ececec;
   font-family: main-font;
   font-size: 15px;
 }
@@ -81,8 +81,16 @@ body, html {
 }
 h1 {
   font-family: title-font;
-  font-size: 70px;
-  color: #830404;
+  font-size: 50px;
+  color: #ee5351;
+  justify-content: center;
+  display: flex;
+  margin: 0;
+}
+h2 {
+  font-family: title-font;
+  font-size: 30px;
+  color: #ee5351;
   justify-content: center;
   display: flex;
   margin: 0;
@@ -99,7 +107,7 @@ p.main-pic {
 p.date {
   text-align: right;
 }
-p.text {
+p.annotation {
   text-align: justify;
   margin: 0;
 }
@@ -108,4 +116,10 @@ p.stars {
   color: #DAC22A;
   font-family: title-font;
   font-size: 35px;
+}
+blockquote {
+  font-size: 13px;
+  margin-left: 0px;
+  border-left: 4px solid #a5d4a6;
+  padding-left: 8px;
 }

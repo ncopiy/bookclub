@@ -1,24 +1,16 @@
 {
   "books": [
     {
-      "title": "title",
-      "main_pic": "https://i.pinimg.com/originals/b1/3b/81/b13b81d79fe91e35008feeaf4c5b04d7.jpg",
-      "ts_end": "25.05",
-      "annotation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "stars": 5
-    },
-    {
-      "title": "title",
-      "main_pic": "https://s00.yaplakal.com/pics/pics_original/5/0/6/17827605.jpg",
-      "ts_end": "25.05",
-      "annotation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "stars": 8
-    },
-    {
-      "title": "title",
-      "main_pic": "https://cdn.eksmo.ru/v2/ITD000000001153897/COVER/cover1__w820.jpg",
-      "ts_end": "25.05",
-      "annotation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "title": "1984",
+      "author": "Джордж Оруэлл",
+      "main_pic": "https://img4.labirint.ru/rc/bd5feb06aaea5cbc0a5dbd4443507a18/363x561q80/books87/863652/cover.jpg?1654068315",
+      "ts_end": "11.07.2023",
+      "annotation": "Своеобразный антипод второй великой антиутопии XX века — «О дивный новый мир» Олдоса Хаксли. Что, в сущности, страшнее: доведенное до абсурда «общество потребления» — или доведенное до абсолюта «общество идеи»?\n\nПо Оруэллу, нет и не может быть ничего ужаснее тотальной несвободы...",
+      "quotes": [
+        "Война — это мир, свобода — это рабство, незнание — сила.",
+        "Если вам нужен образ будущего, вообразите сапог, топчущий лицо человека — вечно. И помните, что это — навечно. Лицо для растаптывания всегда найдется. Всегда найдется еретик, враг общества, для того чтобы его снова и снова побеждали и унижали.",
+        "— Сколько я показываю пальцев, Уинстон?\n— Четыре.\n— А если партия говорит, что их не четыре, а пять, — тогда сколько?.."
+      ],
       "stars": 2
     }
   ]
