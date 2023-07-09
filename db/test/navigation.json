@@ -1,0 +1,23 @@
+{
+  "navigation": [
+    {
+      "name": "<img src=\"static/logo.png\" width=\"20px\">",
+      "source": "current.json",
+      "inner": []
+    },
+    {
+      "name": "Ранее",
+      "source": "",
+      "inner": [
+        {
+          "name": "2022",
+          "source": "2022.json"
+        },
+        {
+          "name": "2021",
+          "source": "2021.json"
+        }
+      ]
+    }
+  ]
+}
