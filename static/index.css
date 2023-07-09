@@ -34,7 +34,6 @@ body, html {
   color: #333;
   display: inline-block;
   padding: 15px;
-  position: relative;
 }
 .top-navigation ul li ul {
   display: none;
@@ -46,8 +45,8 @@ body, html {
 .top-navigation ul li:hover ul {
   display: block;
   margin-top: 15px;
+  margin-left: -55px;
   width: 200px;
-  left: 0px;
   position: absolute;
 }
 .top-navigation ul li:hover ul li {
