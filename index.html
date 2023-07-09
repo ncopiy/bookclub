@@ -10,8 +10,24 @@
 <body>
 
 <!--
-TODO timeline
 TODO stars
+TODO test db
+{
+  "name": "Ранее",
+  "source": "",
+  "inner": [
+    {
+      "name": "2022",
+      "source": "2022.json"
+    },
+  ]
+}
+TODO adaptive layout
+TODO anchors
+function getAnchor() {
+    return (document.URL.split('#').length > 1) ? document.URL.split('#')[1] : null;
+}
+TODO timeline
 -->
 
 <div class="top-navigation">
@@ -27,15 +43,3 @@ TODO stars
 <script src="index.js"></script>
 
 </html>
-
-<!--TODO for future -->
-<!--{-->
-<!--  "name": "Ранее",-->
-<!--  "source": "",-->
-<!--  "inner": [-->
-<!--    {-->
-<!--      "name": "2022",-->
-<!--      "source": "2022.json"-->
-<!--    },-->
-<!--  ]-->
-<!--}-->
