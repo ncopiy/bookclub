@@ -43,6 +43,7 @@ body, html {
   background-color: #f2f2f2;
 }
 .top-navigation ul li:hover ul {
+  z-index: 1;
   display: block;
   margin-top: 15px;
   margin-left: -55px;
@@ -62,8 +63,34 @@ body, html {
 }
 
 
-.content-wrapper {
+.timeline-wrapper {
   padding-top: 30px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.timeline {
+  height:3px;
+  min-width: 80%;
+  background-color:#fff;
+  position:relative;
+}
+.timeline-unit {
+  width: 30px;
+  height: 30px;
+  font-size: 1.4em;
+  text-align: center;
+  position: absolute;
+  background-color: #fff;
+  border-radius: 80%;
+  top:-15px;
+}
+
+
+.content-wrapper {
+  padding-top: 0px;
   padding-bottom: 50px;
   display: flex;
   justify-content: center;
