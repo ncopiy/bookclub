@@ -38,7 +38,7 @@ function getFormattedTimeline(posts) {
         return ``;
     }
 
-    let text = `<div class="timeline">`;
+    let text = `<div class="timeline-wrapper"><div class="timeline">`;
 
     let step = 100 / (posts.length - 1);
     let percent = 0;
@@ -60,20 +60,20 @@ function getFormattedTimeline(posts) {
         percent += step;
     }
 
-    text += `</div>`;
+    text += `</div></div>`;
 
     return text;
 }
 
 
 function getFormattedPosts(posts) {
-    let text = `<div class="posts">`;
+    let text = `<div class="content-wrapper"><div class="posts">`;
 
     for (let i = 0; i < posts.length; i++) {
         text += getFormattedPost(posts[i]);
     }
 
-    text += `</div>`;
+    text += `</div></div>`;
 
     return text;
 }
@@ -172,9 +172,10 @@ async function fillPosts(source, tag) {
         return
     }
 
-    $(".content-wrapper").html(getFormattedPosts(posts.posts));
+    let text = getFormattedTimeline(posts.posts);
+    text += getFormattedPosts(posts.posts);
 
-    $(".timeline-wrapper").html(getFormattedTimeline(posts.posts));
+    $(".page-content").html(text);
 
     if (tag) {
         var queryParams = new URLSearchParams();
