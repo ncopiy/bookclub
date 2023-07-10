@@ -13,7 +13,9 @@ function formatEndOfStrings(text) {
 function getFormattedPost(post) {
     let text = [
         `<div class="post-block">`,
+        `<a id=${post.anchor}>`,
         `<h1>${post.title}</h1>`,
+        `</a>`,
         `<h2>${post.author}</h2>`,
         `<p class="main-pic">
             <img src="${post.main_pic}" class="book-cover">
@@ -31,12 +33,47 @@ function getFormattedPost(post) {
     return text;
 }
 
+function getFormattedTimeline(posts) {
+    if (posts.length < 2) {
+        return ``;
+    }
+
+    let text = `<div class="timeline">`;
+
+    let step = 100 / (posts.length - 1);
+    let percent = 0;
+
+    for (let i = 0; i < posts.length; i++) {
+        text += [
+            `<div class="timeline-unit" style="left:`,
+            `${percent}%;">`,
+            `<a href="#`,
+            posts[i].anchor,
+            `" title="`,
+            `${posts[i].author} - ${posts[i].title}`,
+            `">`,
+            posts[i].emoji,
+            `</a>`,
+            `</div>`
+        ].join('');
+
+        percent += step;
+    }
+
+    text += `</div>`;
+
+    return text;
+}
+
+
 function getFormattedPosts(posts) {
-    let text = "";
+    let text = `<div class="posts">`;
 
     for (let i = 0; i < posts.length; i++) {
         text += getFormattedPost(posts[i]);
     }
+
+    text += `</div>`;
 
     return text;
 }
@@ -135,7 +172,9 @@ async function fillPosts(source, tag) {
         return
     }
 
-    $(".posts").html(getFormattedPosts(posts.posts));
+    $(".content-wrapper").html(getFormattedPosts(posts.posts));
+
+    $(".timeline-wrapper").html(getFormattedTimeline(posts.posts));
 
     if (tag) {
         var queryParams = new URLSearchParams();

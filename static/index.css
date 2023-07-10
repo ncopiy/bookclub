@@ -87,6 +87,9 @@ body, html {
   border-radius: 80%;
   top:-15px;
 }
+.timeline-unit a {
+  text-decoration: none;
+}
 
 
 .content-wrapper {
