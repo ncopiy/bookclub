@@ -21,6 +21,9 @@ body, html {
   border-radius: 5px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   background-color: #f9f9f9;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 .top-navigation ul {
   font-size: 0;
