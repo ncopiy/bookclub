@@ -3,6 +3,7 @@
     {
       "name": "<img src=\"static/logo.png\" width=\"20px\">",
       "source": "current.json",
+      "tag": "",
       "inner": []
     },
     {
@@ -11,11 +12,13 @@
       "inner": [
         {
           "name": "2022",
-          "source": "2022.json"
+          "source": "2022.json",
+          "tag": "2022"
         },
         {
           "name": "2021",
-          "source": "2021.json"
+          "source": "2021.json",
+          "tag": "2021"
         }
       ]
     }

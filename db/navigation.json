@@ -3,6 +3,7 @@
     {
       "name": "<img src=\"static/logo.png\" width=\"20px\">",
       "source": "current.json",
+      "tag": "",
       "inner": []
     }
   ]
