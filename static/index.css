@@ -10,7 +10,7 @@
 
 
 body, html {
-  height: 100%;
+  min-height: 100%;
   background-color: #ececec;
   font-family: main-font;
   font-size: 15px;
@@ -37,9 +37,13 @@ body, html {
   color: #333;
   display: inline-block;
   padding: 15px;
+  position: relative;
 }
 .top-navigation ul li ul {
   display: none;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  overflow: hidden;
 }
 .top-navigation ul li:hover {
   cursor: pointer;
@@ -48,10 +52,12 @@ body, html {
 .top-navigation ul li:hover ul {
   z-index: 1;
   display: block;
-  margin-top: 15px;
-  margin-left: -55px;
   width: 200px;
   position: absolute;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 0;
+  top: 100%;
+  left: 0;
 }
 .top-navigation ul li:hover ul li {
   display: block;
@@ -144,12 +150,6 @@ p.annotation {
   text-align: justify;
   margin: 0;
 }
-p.stars {
-  text-align: center;
-  color: #DAC22A;
-  font-family: title-font;
-  font-size: 35px;
-}
 blockquote {
   font-size: 13px;
   margin-left: 0px;
@@ -157,4 +157,23 @@ blockquote {
   border-left: 4px solid #a5d4a6;
   padding-left: 8px;
   text-align: justify;
+}
+
+
+.stars {
+  color: #DAC22A;
+  font-family: title-font;
+  font-size: 35px;
+  letter-spacing: -4px;
+  display: flex;
+  justify-content: center;
+}
+.stars-empty {
+  position: relative;
+}
+.stars-filled {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
 }
