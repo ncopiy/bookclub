@@ -28,6 +28,17 @@ function getFormattedPost(post) {
         text += `<blockquote>${formatEndOfStrings(post.quotes[j])}</blockquote>`;
     }
 
+    if (post.rating > 0) {
+        text += `<div class="stars" title="${post.rating}/100">
+                    <div class="stars-empty">
+                        ☆☆☆☆☆
+                        <div class="stars-filled" style="width: ${post.rating}%">
+                            ★★★★★
+                        </div>
+                    </div>
+                </div>`;
+    }
+
     text = text + `</div><br>`;
 
     return text;
