@@ -1,11 +1,11 @@
 @font-face {
   font-family: main-font;
-  src: url(fonts/ahellya.ttf);
+  src: url(fonts/bertsans_light.ttf);
 }
 
 @font-face {
   font-family: title-font;
-  src: url(fonts/novelist.otf);
+  src: url(fonts/ac_line.otf);
 }
 
 
@@ -13,7 +13,7 @@ body, html {
   min-height: 100%;
   background-color: #ececec;
   font-family: main-font;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 
@@ -30,10 +30,13 @@ body, html {
   list-style-type: none;
   color: #823591;
 }
+.top-navigation ul img {
+  width: 20px;
+}
 .top-navigation ul li {
-  font-family: main-font;
+  font-family: title-font;
+  font-weight: bold;
   font-size: 1rem;
-  font-weight: 400;
   color: #333;
   display: inline-block;
   padding: 15px;
@@ -89,7 +92,7 @@ body, html {
 .timeline-unit {
   width: 30px;
   height: 30px;
-  font-size: 1.4em;
+  font-size: 1em;
   text-align: center;
   position: absolute;
   background-color: #fff;
@@ -151,7 +154,7 @@ p.annotation {
   margin: 0;
 }
 blockquote {
-  font-size: 13px;
+  font-size: 18px;
   margin-left: 0px;
   margin-right: 0px;
   border-left: 4px solid #a5d4a6;
@@ -163,7 +166,7 @@ blockquote {
 .stars {
   color: #DAC22A;
   font-family: title-font;
-  font-size: 35px;
+  font-size: 40px;
   letter-spacing: -4px;
   display: flex;
   justify-content: center;
@@ -178,9 +181,12 @@ blockquote {
   overflow: hidden;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 750px) {
+    .top-navigation ul img {
+      width: 40px;
+    }
     .top-navigation ul li {
-      font-size: 1.5rem;
+      font-size: 2rem;
     }
 
     .timeline-wrapper {
@@ -198,22 +204,26 @@ blockquote {
     }
 
     h1 {
-      font-size: 30px;
+      font-size: 60px;
     }
     h2 {
-      font-size: 20px;
+      font-size: 40px;
     }
     .book-cover {
       max-width:400px;
     }
 
     p.date {
-      font-size: 18px;
+      font-size: 22px;
     }
     p.annotation {
-      font-size: 18px;
+      font-size: 22px;
     }
     blockquote {
-      font-size: 16px;
+      font-size: 20px;
+    }
+
+    .stars {
+      font-size: 50px;
     }
 }
