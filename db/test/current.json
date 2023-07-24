@@ -13,7 +13,8 @@
       ],
       "rating": 34,
       "emoji": "\uD83D\uDE05",
-      "anchor": "1984"
+      "anchor": "1984",
+      "readers": []
     },
     {
       "title": "1984 - 2",
@@ -28,7 +29,8 @@
       ],
       "rating": 57,
       "emoji": "\uD83D\uDE05",
-      "anchor": "1984_kek"
+      "anchor": "1984_kek",
+      "readers": []
     }
   ]
 }
