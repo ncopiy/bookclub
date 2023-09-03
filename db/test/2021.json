@@ -14,7 +14,7 @@
       "rating": 45.9,
       "emoji": "\uD83D\uDE05",
       "anchor": "2021_3",
-      "readers": []
+      "readers": {}
     },
     {
       "title": "2021",
@@ -30,7 +30,7 @@
       "rating": 94.3,
       "emoji": "\uD83D\uDE05",
       "anchor": "2021_2",
-      "readers": []
+      "readers": {}
     },
     {
       "title": "12 стульев",
@@ -45,7 +45,7 @@
       "rating": 55.7,
       "emoji": "\uD83E\uDE91",
       "anchor": "twelve_chairs",
-      "readers": []
+      "readers": {}
     }
   ]
 }
