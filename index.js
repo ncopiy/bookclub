@@ -10,6 +10,22 @@ function formatEndOfStrings(text) {
     return text.replaceAll('\n', '<br>');
 }
 
+function calculateAverageRating(readers) {
+  let totalRating = 0;
+  let readerCount = 0;
+
+  for (const reader in readers) {
+    if (readers.hasOwnProperty(reader)) {
+      totalRating += readers[reader].rating;
+      readerCount++;
+    }
+  }
+
+  const averageRating = totalRating / readerCount;
+
+  return averageRating;
+}
+
 function getFormattedPost(post) {
     let text = [
         `<div class="post-block">`,
@@ -28,11 +44,13 @@ function getFormattedPost(post) {
         text += `<blockquote>${formatEndOfStrings(post.quotes[j])}</blockquote>`;
     }
 
-    if (post.rating > 0) {
-        text += `<div class="stars" title="${post.rating}/100">
+    let rating = calculateAverageRating(post.readers);
+
+    if (rating > 0) {
+        text += `<div class="stars" title="${rating}/100">
                     <div class="stars-empty">
                         ☆☆☆☆☆
-                        <div class="stars-filled" style="width: ${post.rating}%">
+                        <div class="stars-filled" style="width: ${rating}%">
                             ★★★★★
                         </div>
                     </div>
