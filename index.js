@@ -83,7 +83,7 @@ function getFormattedTimeline(posts) {
     let step = 100 / (posts.length - 1);
     let percent = 0;
 
-    for (let i = 0; i < posts.length; i++) {
+    for (let i = posts.length - 1; i >= 0; i--) {
         text += [
             `<div class="timeline-unit" style="left:`,
             `${percent}%;">`,
