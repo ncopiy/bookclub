@@ -4,26 +4,17 @@ const NAVIGATION_DB = DB_PREFIX + "navigation.json";
 
 const PAGE_QUERY_PARAM = "page";
 
+const RATING_TYPES = {
+    'plot': 'Сюжет',
+    'atmosphere': 'Aтмосфера',
+    'characters': 'Персонажи',
+    'total': 'Общая оценка'
+};
+
 var SECTION_TAG_TO_DATA_SOURCE = {};
 
 function formatEndOfStrings(text) {
     return text.replaceAll('\n', '<br>');
-}
-
-function calculateAverageRating(readers) {
-  let totalRating = 0;
-  let readerCount = 0;
-
-  for (const reader in readers) {
-    if (readers.hasOwnProperty(reader)) {
-      totalRating += readers[reader].rating;
-      readerCount++;
-    }
-  }
-
-  const averageRating = totalRating / readerCount;
-
-  return averageRating;
 }
 
 function getFormattedPost(post) {
@@ -44,22 +35,42 @@ function getFormattedPost(post) {
         text += `<blockquote>${formatEndOfStrings(post.quotes[j])}</blockquote>`;
     }
 
-    let rating = calculateAverageRating(post.readers);
-
-    if (rating > 0) {
-        text += `<div class="stars" title="${rating}/100">
-                    <div class="stars-empty">
-                        ☆☆☆☆☆
-                        <div class="stars-filled" style="width: ${rating}%">
-                            ★★★★★
-                        </div>
-                    </div>
-                </div>`;
-    }
+    text += getRatings(post.readers);
 
     text = text + `</div><br>`;
 
     return text;
+}
+
+function getRatings(readers) {
+    text = "";
+    for (const ratingType in RATING_TYPES) {
+        let count = 0;
+        let total = 0;
+        for (const name in readers) {
+            if ('rating' in readers[name] && ratingType in readers[name]['rating']) {
+                count++;
+                total += readers[name]['rating'][ratingType];
+            }
+        }
+
+        if (count > 0 && total > 0) {
+            let average = total / count;
+            let rounded = average * 10;
+
+            text += `
+            <div class="stars">
+            <div class="stars-description">${RATING_TYPES[ratingType]}:</div>
+            <div class="stars-empty" title="${average}/10">
+                ☆☆☆☆☆
+                <div class="stars-filled" style="width: ${rounded}%" title="${average}/10">
+                    ★★★★★
+                </div>
+            </div>
+        </div>`;
+        }
+    }
+    return text
 }
 
 function getFormattedTimeline(posts) {

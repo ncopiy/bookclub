@@ -169,7 +169,6 @@ blockquote {
   font-size: 40px;
   letter-spacing: -4px;
   display: flex;
-  justify-content: center;
 }
 .stars-empty {
   position: relative;
@@ -179,6 +178,15 @@ blockquote {
   top: 0;
   left: 0;
   overflow: hidden;
+}
+.stars-description {
+  font-family: main-font;
+  margin-right: auto;
+  font-size: 20px;
+  letter-spacing: 0px;
+  color: #000;
+  margin-block: auto;
+  margin-block-end: inherit;
 }
 
 @media (orientation: portrait) {
