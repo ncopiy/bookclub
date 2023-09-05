@@ -13,7 +13,40 @@
       ],
       "emoji": "\uD83D\uDE05",
       "anchor": "1984",
-      "readers": {}
+      "readers": {
+        "anya": {
+          "rating": {
+            "plot": 8,
+            "characters": 10,
+            "atmosphere": 8,
+            "total": 9
+          }
+        },
+        "vera": {
+          "rating": {
+            "plot": 8,
+            "characters": 9,
+            "atmosphere": 10,
+            "total": 9
+          }
+        },
+        "timur": {
+          "rating": {
+            "plot": 8,
+            "characters": 10,
+            "atmosphere": 9,
+            "total": 8
+          }
+        },
+        "dima": {
+          "rating": {
+            "plot": 8,
+            "characters": 10,
+            "atmosphere": 9,
+            "total": 9
+          }
+        }
+      }
     },
     {
       "title": "1984 - 2",
@@ -28,7 +61,7 @@
       ],
       "emoji": "\uD83D\uDE05",
       "anchor": "1984_kek",
-      "readers": {"anya": {"rating": 100}, "vera": {"rating": 100}, "timur": {"rating": 100}, "dima": {"rating": 100}}
+      "readers": {}
     }
   ]
 }

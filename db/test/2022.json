@@ -13,7 +13,7 @@
       ],
       "emoji": "\uD83D\uDE05",
       "anchor": "2022_1",
-      "readers": {"anya": {"rating": 80}, "vera": {"rating": 90}, "timur": {"rating": 75}, "dima": {"rating": 61.8}}
+      "readers": {}
     }
   ]
 }

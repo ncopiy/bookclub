@@ -23,7 +23,40 @@
       ],
       "emoji": "\uD83E\uDE91",
       "anchor": "twelve_chairs",
-      "readers": {"anya": {"rating": 0}, "vera": {"rating": 0}, "timur": {"rating": 0}, "dima": {"rating": 0}}
+      "readers": {
+        "anya": {
+          "rating": {
+            "plot": 8,
+            "characters": 10,
+            "atmosphere": 8,
+            "total": 9
+          }
+        },
+        "vera": {
+          "rating": {
+            "plot": 8,
+            "characters": 9,
+            "atmosphere": 10,
+            "total": 9
+          }
+        },
+        "timur": {
+          "rating": {
+            "plot": 8,
+            "characters": 10,
+            "atmosphere": 9,
+            "total": 8
+          }
+        },
+        "dima": {
+          "rating": {
+            "plot": 8,
+            "characters": 10,
+            "atmosphere": 9,
+            "total": 9
+          }
+        }
+      }
     }
   ]
 }

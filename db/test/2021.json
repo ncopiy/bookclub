@@ -13,7 +13,7 @@
       ],
       "emoji": "\uD83D\uDE05",
       "anchor": "2021_3",
-      "readers": {"anya": {"rating": 75}, "vera": {"rating": 75}, "timur": {"rating": 75}, "dima": {"rating": 75}}
+      "readers": {}
     },
     {
       "title": "2021",
@@ -28,7 +28,7 @@
       ],
       "emoji": "\uD83D\uDE05",
       "anchor": "2021_2",
-      "readers": {"anya": {"rating": 20}, "vera": {"rating": 20}, "timur": {"rating": 20}, "dima": {"rating": 20}}
+      "readers": {}
     },
     {
       "title": "12 стульев",
@@ -42,7 +42,7 @@
       ],
       "emoji": "\uD83E\uDE91",
       "anchor": "twelve_chairs",
-      "readers": {"anya": {"rating": 50}, "vera": {"rating": 50}, "timur": {"rating": 50}, "dima": {"rating": 50}}
+      "readers": {}
     }
   ]
 }
