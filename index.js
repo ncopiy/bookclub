@@ -1,4 +1,4 @@
-const DB_PREFIX = document.location.origin.includes("localhost") ? "db/test/" : "db/"
+const DB_PREFIX = document.location.origin.includes("localhost") ? "db/test/" : "db/prod/"
 const CURRENT_DB = DB_PREFIX + "current.json";
 const NAVIGATION_DB = DB_PREFIX + "navigation.json";
 
@@ -18,18 +18,16 @@ function formatEndOfStrings(text) {
 }
 
 function getFormattedPost(post) {
-    let text = [
-        `<div class="post-block">`,
-        `<a id=${post.anchor}>`,
-        `<h1>${post.title}</h1>`,
-        `</a>`,
-        `<h2>${post.author}</h2>`,
-        `<p class="main-pic">
-            <img src="${post.main_pic}" class="book-cover">
-        </p>`,
-        `<p class="date">${post.ts_end}</p>`,
-        `<p class="annotation">${formatEndOfStrings(post.annotation)}</p><br>`,
-    ].join('');
+    let text = `
+    <div class="post-block">
+        <a id=${post.anchor}><h1>${post.title}</h1></a>
+        <h2>${post.author}</h2>
+    `;
+
+    text += getPostPictures(post);
+
+    text += `<p class="date">${post.ts_end}</p>`;
+    text += `<p class="annotation">${formatEndOfStrings(post.annotation)}</p><br>`;
 
     for (let j = 0; j < post.quotes.length; j++) {
         text += `<blockquote>${formatEndOfStrings(post.quotes[j])}</blockquote>`;
@@ -37,13 +35,21 @@ function getFormattedPost(post) {
 
     text += getRatings(post.readers);
 
-    text = text + `</div><br>`;
+    text += `</div><br>`;
 
     return text;
 }
 
+function getPostPictures(post) {
+    if (post.pics.length != 1) {
+        return ``;
+    }
+
+    return `<p class="main-pic"><img src="${post.pics[0]}" class="book-cover"></p>`;
+}
+
 function getRatings(readers) {
-    text = "";
+    let text = ``;
     for (const ratingType in RATING_TYPES) {
         let count = 0;
         let total = 0;
@@ -84,18 +90,10 @@ function getFormattedTimeline(posts) {
     let percent = 0;
 
     for (let i = posts.length - 1; i >= 0; i--) {
-        text += [
-            `<div class="timeline-unit" style="left:`,
-            `${percent}%;">`,
-            `<a href="#`,
-            posts[i].anchor,
-            `" title="`,
-            `${posts[i].author} - ${posts[i].title}`,
-            `">`,
-            posts[i].emoji,
-            `</a>`,
-            `</div>`
-        ].join('');
+        text += `
+        <div class="timeline-unit" style="left:${percent}%;">
+            <a href="#${posts[i].anchor}" title="${posts[i].author} - ${posts[i].title}">${posts[i].emoji}</a>
+        </div>`;
 
         percent += step;
     }
@@ -119,15 +117,7 @@ function getFormattedPosts(posts) {
 }
 
 function getNavigationLink(name, source, tag) {
-    return [
-        `<div onclick='fillPosts("`,
-        source,
-        `", "`,
-        tag,
-        `");'>`,
-        name,
-        `</div>`,
-    ].join('');
+    return `<div onclick='fillPosts("${source}", "${tag}");'>${name}</div>`;
 }
 
 function fillTags(navigation) {
