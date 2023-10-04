@@ -1,4 +1,4 @@
-const DB_PREFIX = document.location.origin.includes("localhost") ? "db/test/" : "db/"
+const DB_PREFIX = document.location.origin.includes("localhost") ? "db/test/" : "db/prod/"
 const CURRENT_DB = DB_PREFIX + "current.json";
 const NAVIGATION_DB = DB_PREFIX + "navigation.json";
 
