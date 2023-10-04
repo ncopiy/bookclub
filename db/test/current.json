@@ -64,7 +64,8 @@
             "characters": 10,
             "atmosphere": 8,
             "total": 9
-          }
+          },
+          "promoter": true
         },
         "vera": {
           "rating": {
