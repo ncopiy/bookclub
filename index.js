@@ -90,18 +90,10 @@ function getFormattedTimeline(posts) {
     let percent = 0;
 
     for (let i = posts.length - 1; i >= 0; i--) {
-        text += [
-            `<div class="timeline-unit" style="left:`,
-            `${percent}%;">`,
-            `<a href="#`,
-            posts[i].anchor,
-            `" title="`,
-            `${posts[i].author} - ${posts[i].title}`,
-            `">`,
-            posts[i].emoji,
-            `</a>`,
-            `</div>`
-        ].join('');
+        text += `
+        <div class="timeline-unit" style="left:${percent}%;">
+            <a href="#${posts[i].anchor}" title="${posts[i].author} - ${posts[i].title}">${posts[i].emoji}</a>
+        </div>`;
 
         percent += step;
     }
@@ -125,15 +117,7 @@ function getFormattedPosts(posts) {
 }
 
 function getNavigationLink(name, source, tag) {
-    return [
-        `<div onclick='fillPosts("`,
-        source,
-        `", "`,
-        tag,
-        `");'>`,
-        name,
-        `</div>`,
-    ].join('');
+    return `<div onclick='fillPosts("${source}", "${tag}");'>${name}</div>`;
 }
 
 function fillTags(navigation) {
