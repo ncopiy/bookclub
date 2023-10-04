@@ -18,18 +18,16 @@ function formatEndOfStrings(text) {
 }
 
 function getFormattedPost(post) {
-    let text = [
-        `<div class="post-block">`,
-        `<a id=${post.anchor}>`,
-        `<h1>${post.title}</h1>`,
-        `</a>`,
-        `<h2>${post.author}</h2>`,
-        `<p class="main-pic">
-            <img src="${post.main_pic}" class="book-cover">
-        </p>`,
-        `<p class="date">${post.ts_end}</p>`,
-        `<p class="annotation">${formatEndOfStrings(post.annotation)}</p><br>`,
-    ].join('');
+    let text = `
+    <div class="post-block">
+        <a id=${post.anchor}><h1>${post.title}</h1></a>
+        <h2>${post.author}</h2>
+    `;
+
+    text += getPostPictures(post);
+
+    text += `<p class="date">${post.ts_end}</p>`;
+    text += `<p class="annotation">${formatEndOfStrings(post.annotation)}</p><br>`;
 
     for (let j = 0; j < post.quotes.length; j++) {
         text += `<blockquote>${formatEndOfStrings(post.quotes[j])}</blockquote>`;
@@ -37,13 +35,21 @@ function getFormattedPost(post) {
 
     text += getRatings(post.readers);
 
-    text = text + `</div><br>`;
+    text += `</div><br>`;
 
     return text;
 }
 
+function getPostPictures(post) {
+    if (post.pics.length != 1) {
+        return ``;
+    }
+
+    return `<p class="main-pic"><img src="${post.pics[0]}" class="book-cover"></p>`;
+}
+
 function getRatings(readers) {
-    text = "";
+    let text = ``;
     for (const ratingType in RATING_TYPES) {
         let count = 0;
         let total = 0;
