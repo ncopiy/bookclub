@@ -206,14 +206,6 @@ async function fillPosts(source, tag) {
     text += getFormattedPosts(posts.posts);
 
     $(".page-content").html(text);
-
-    if (tag) {
-        var queryParams = new URLSearchParams();
-        queryParams.set(PAGE_QUERY_PARAM, tag);
-        history.replaceState(null, null, "?" + queryParams.toString());
-    } else {
-        history.replaceState(null, null, "?");
-    }
 }
 
 function getSectionTag() {
