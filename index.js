@@ -120,7 +120,7 @@ function getNavigationLink(name, source, tag) {
     if (tag.length == 0) {
         return `<a href="./"><div>${name}</div></a>`;
     }
-    return `<a href="?page=${tag}"><div>${name}</div></a>`;
+    return `<a href="?${PAGE_QUERY_PARAM}=${tag}"><div>${name}</div></a>`;
 }
 
 function fillTags(navigation) {
