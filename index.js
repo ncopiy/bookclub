@@ -117,7 +117,10 @@ function getFormattedPosts(posts) {
 }
 
 function getNavigationLink(name, source, tag) {
-    return `<div onclick='fillPosts("${source}", "${tag}");'>${name}</div>`;
+    if (tag.length == 0) {
+        return `<a href="./"><div>${name}</div></a>`;
+    }
+    return `<a href="?page=${tag}"><div>${name}</div></a>`;
 }
 
 function fillTags(navigation) {
