@@ -117,7 +117,10 @@ function getFormattedPosts(posts) {
 }
 
 function getNavigationLink(name, source, tag) {
-    return `<div onclick='fillPosts("${source}", "${tag}");'>${name}</div>`;
+    if (tag.length == 0) {
+        return `<a href="./"><div>${name}</div></a>`;
+    }
+    return `<a href="?${PAGE_QUERY_PARAM}=${tag}"><div>${name}</div></a>`;
 }
 
 function fillTags(navigation) {
@@ -206,14 +209,15 @@ async function fillPosts(source, tag) {
     text += getFormattedPosts(posts.posts);
 
     $(".page-content").html(text);
+}
 
-    if (tag) {
-        var queryParams = new URLSearchParams();
-        queryParams.set(PAGE_QUERY_PARAM, tag);
-        history.replaceState(null, null, "?" + queryParams.toString());
-    } else {
-        history.replaceState(null, null, "?");
+function jumpToAnchor() {
+    let anchorValue = (document.URL.split('#').length > 1) ? document.URL.split('#')[1] : "";
+    if (anchorValue.length == 0) {
+        return
     }
+    let top = document.getElementById(anchorValue).offsetTop;
+    window.scrollTo(0, top);
 }
 
 function getSectionTag() {
@@ -233,8 +237,9 @@ function getSectionTag() {
 
 async function fillMainData() {
     await fillNavigation();
-    var currentSectionTag = getSectionTag()
+    let currentSectionTag = getSectionTag();
     await fillPosts(currentSectionTag == null ? CURRENT_DB : SECTION_TAG_TO_DATA_SOURCE[currentSectionTag], currentSectionTag);
+    jumpToAnchor();
 }
 
 fillMainData();
