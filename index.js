@@ -208,6 +208,15 @@ async function fillPosts(source, tag) {
     $(".page-content").html(text);
 }
 
+function jumpToAnchor() {
+    let anchorValue = (document.URL.split('#').length > 1) ? document.URL.split('#')[1] : "";
+    if (anchorValue.length == 0) {
+        return
+    }
+    let top = document.getElementById(anchorValue).offsetTop;
+    window.scrollTo(0, top);
+}
+
 function getSectionTag() {
     if (SECTION_TAG_TO_DATA_SOURCE.length == 0) {
         return null;
@@ -225,8 +234,9 @@ function getSectionTag() {
 
 async function fillMainData() {
     await fillNavigation();
-    var currentSectionTag = getSectionTag()
+    let currentSectionTag = getSectionTag();
     await fillPosts(currentSectionTag == null ? CURRENT_DB : SECTION_TAG_TO_DATA_SOURCE[currentSectionTag], currentSectionTag);
+    jumpToAnchor();
 }
 
 fillMainData();
