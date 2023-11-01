@@ -4,11 +4,23 @@ const NAVIGATION_DB = DB_PREFIX + "navigation.json";
 
 const PAGE_QUERY_PARAM = "page";
 
-const RATING_TYPES = {
-    'plot': 'Сюжет',
-    'atmosphere': 'Aтмосфера',
-    'characters': 'Персонажи',
-    'total': 'Общая оценка'
+const RATING_TYPE_TO_HUMAN_READABLE = {
+    'plot': {
+        'ru': 'Сюжет',
+        'en': 'Plot'
+    },
+    'atmosphere': {
+        'ru': 'Aтмосфера',
+        'en': 'Atmosphere'
+    },
+    'characters': {
+        'ru': 'Персонажи',
+        'en': 'Characters'
+    },
+    'total': {
+        'ru': 'Общая оценка',
+        'en': 'Total'
+    }
 };
 
 var SECTION_TAG_TO_DATA_SOURCE = {};
@@ -33,7 +45,7 @@ function getFormattedPost(post) {
         text += `<blockquote>${formatEndOfStrings(post.quotes[j])}</blockquote>`;
     }
 
-    text += getRatings(post.readers);
+    text += getRatings(post.readers, post.locale != null ? post.locale : 'ru');
 
     text += `</div><br>`;
 
@@ -48,9 +60,9 @@ function getPostPictures(post) {
     return `<p class="main-pic"><img src="${post.pics[0]}" class="book-cover"></p>`;
 }
 
-function getRatings(readers) {
+function getRatings(readers, locale) {
     let text = ``;
-    for (const ratingType in RATING_TYPES) {
+    for (const ratingType in RATING_TYPE_TO_HUMAN_READABLE) {
         let count = 0;
         let total = 0;
         for (const name in readers) {
@@ -66,7 +78,7 @@ function getRatings(readers) {
 
             text += `
             <div class="stars">
-            <div class="stars-description">${RATING_TYPES[ratingType]}:</div>
+            <div class="stars-description">${RATING_TYPE_TO_HUMAN_READABLE[ratingType][locale]}:</div>
             <div class="stars-empty" title="${average}/10">
                 ☆☆☆☆☆
                 <div class="stars-filled" style="width: ${rounded}%" title="${average}/10">
