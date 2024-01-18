@@ -5,6 +5,17 @@
       "source": "current.json",
       "tag": "",
       "inner": []
+    },
+    {
+      "name": "Ранее",
+      "source": "",
+      "inner": [
+        {
+          "name": "2023",
+          "source": "2023.json",
+          "tag": "2023"
+        }
+      ]
     }
   ]
 }
