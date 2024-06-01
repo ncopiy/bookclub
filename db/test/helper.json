@@ -1,0 +1,48 @@
+{
+  "title": "",
+  "author": "",
+  "pics": [""],
+  "ts_end": "читаем...",
+  "annotation": "",
+  "quotes": [
+
+  ],
+  "emoji": "",
+  "anchor": "",
+  "locale": "ru",
+  "readers": {
+    "anya": {
+      "rating": {
+        "plot": 0,
+        "atmosphere": 0,
+        "characters": 0,
+        "total": 0
+      }
+    },
+    "vera": {
+      "rating": {
+        "plot": 0,
+        "atmosphere": 0,
+        "characters": 0,
+        "total": 0
+      },
+      "promoter": true
+    },
+    "timur": {
+      "rating": {
+        "plot": 0,
+        "atmosphere": 0,
+        "characters": 0,
+        "total": 0
+      }
+    },
+    "dima": {
+      "rating": {
+        "plot": 0,
+        "atmosphere": 0,
+        "characters": 0,
+        "total": 0
+      }
+    }
+  }
+}
