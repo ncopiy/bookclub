@@ -4,7 +4,7 @@
       "title": "Калечина-Малечина",
       "author": "Евгения Некрасова",
       "pics": ["db/pics/0005.jpg"],
-      "ts_end": "читаем...",
+      "ts_end": "01.06.2024",
       "annotation": "Девочка Катя живёт с родителями в маленьком городе на одиннадцатом этаже обычного панельного дома. Миру вокруг Катя не нужна: \"невыросшие\" дразнят, а у \"выросших\" нет на неё сил и времени. И Катя находит для себя выход. Но тут вмешивается Кикимора, живущая за плитой на кухне. Вместе они отправляются в опасное путешествие и невольно превосходят по жестокости тех, кто калечил их.",
       "quotes": [
 
@@ -15,35 +15,19 @@
       "readers": {
         "anya": {
           "rating": {
-            "plot": 0,
-            "atmosphere": 0,
-            "characters": 0,
-            "total": 0
+            "plot": 8,
+            "atmosphere": 10,
+            "characters": 9,
+            "total": 9
           },
           "promoter": true
         },
-        "vera": {
-          "rating": {
-            "plot": 0,
-            "atmosphere": 0,
-            "characters": 0,
-            "total": 0
-          }
-        },
-        "timur": {
-          "rating": {
-            "plot": 0,
-            "atmosphere": 0,
-            "characters": 0,
-            "total": 0
-          }
-        },
         "dima": {
           "rating": {
-            "plot": 0,
-            "atmosphere": 0,
-            "characters": 0,
-            "total": 0
+            "plot": 7,
+            "atmosphere": 9,
+            "characters": 10,
+            "total": 8
           }
         }
       }
