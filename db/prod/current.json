@@ -1,13 +1,63 @@
 {
   "posts": [
     {
+      "title": "Коронация, или Последний из романов",
+      "author": "Борис Акунин",
+      "pics": [
+        "db/pics/0006.jpg"
+      ],
+      "ts_end": "читаем...",
+      "annotation": "Накануне коронации будущего императора Николая II международный преступник похищает малолетнего сына одного из великих князей, требуя в качестве выкупа знаменитый бриллиант \"Орлов\" с коронационного скипетра. Судьба династии оказалась в руках афериста. Если в день коронации на скипетре не будет бриллианта, это вызовет международный скандал. Однако скандал разразится, если преступник убьет сына великого князя и подбросит части тела мальчика по всей Москве...",
+      "quotes": [
+      ],
+      "emoji": "\uD83D\uDC51",
+      "anchor": "prince",
+      "locale": "ru",
+      "readers": {
+        "anya": {
+          "rating": {
+            "plot": 0,
+            "atmosphere": 0,
+            "characters": 0,
+            "total": 0
+          }
+        },
+        "vera": {
+          "rating": {
+            "plot": 0,
+            "atmosphere": 0,
+            "characters": 0,
+            "total": 0
+          },
+          "promoter": true
+        },
+        "timur": {
+          "rating": {
+            "plot": 0,
+            "atmosphere": 0,
+            "characters": 0,
+            "total": 0
+          }
+        },
+        "dima": {
+          "rating": {
+            "plot": 0,
+            "atmosphere": 0,
+            "characters": 0,
+            "total": 0
+          }
+        }
+      }
+    },
+    {
       "title": "Калечина-Малечина",
       "author": "Евгения Некрасова",
-      "pics": ["db/pics/0005.jpg"],
+      "pics": [
+        "db/pics/0005.jpg"
+      ],
       "ts_end": "01.06.2024",
       "annotation": "Девочка Катя живёт с родителями в маленьком городе на одиннадцатом этаже обычного панельного дома. Миру вокруг Катя не нужна: \"невыросшие\" дразнят, а у \"выросших\" нет на неё сил и времени. И Катя находит для себя выход. Но тут вмешивается Кикимора, живущая за плитой на кухне. Вместе они отправляются в опасное путешествие и невольно превосходят по жестокости тех, кто калечил их.",
       "quotes": [
-
       ],
       "emoji": "\uD83E\uDDE4",
       "anchor": "kikimora",
@@ -35,7 +85,9 @@
     {
       "title": "Лавр",
       "author": "Евгений Водолазкин",
-      "pics": ["db/pics/0004.jpg"],
+      "pics": [
+        "db/pics/0004.jpg"
+      ],
       "ts_end": "01.04.2024",
       "annotation": "Давным-давно жил да был в Рукиной слободе Арсений. Судьба его не щадила: совсем маленьким он остался сиротой, родители погибли от мора. С тех пор будущего целителя воспитывал дед Христофор, который успевает передать Арсению секреты врачевания.\nА потом в жизни повзрослевшего и возмужавшего главного героя происходит страшная трагедия: гибнет его возлюбленная Устина и их ребенок.\nЭта тяжелая потеря превращает талантливого врача в юродивого, стремящегося исцелить всех нуждающихся и помочь каждому человеку с помощью трав и молитв. Так начинается сложный и долгий путь старца Лавра…",
       "quotes": [
@@ -89,7 +141,9 @@
     {
       "title": "Neverwhere",
       "author": "Neil Gaiman",
-      "pics": ["db/pics/0003.jpg"],
+      "pics": [
+        "db/pics/0003.jpg"
+      ],
       "ts_end": "16.01.2024",
       "annotation": "Under the streets of London lies a world most people could never dream of.\nWhen Richard Mayhew stops to help a girl he finds bleeding in the street, his unremarkable life changes in an instant.\nThis act of kindness leads him to a place filled with murderers and angels, pale girls in black velvet, a Beast in a labyrinth and an Earl who holds Court in a tube train. It is strangely familiar yet utterly bizarre.\nHere is London Below, the city of people who have fallen between the cracks. And for Richard Mayhew, it's just the beginning.",
       "quotes": [
