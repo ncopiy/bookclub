@@ -6,9 +6,19 @@
       "pics": [
         "db/pics/0007.jpg"
       ],
-      "ts_end": "читаем...",
+      "ts_end": "19.08.2024",
       "annotation": "Один из лучших, самых глубоких и страстных романов Курта Воннегута – роман, неожиданно для него простой и реалистичный по форме. История Говарда Кэмпбелла – героя и преступника, американского писателя, живущего в гитлеровской Германии, разведчика, вынужденного выдавать себя за ярого нациста и вести пропагандистские передачи на радио.\nМожно ли во имя победы добра служить злу? Проповедовать насилие, даже если знаешь, что в конечном итоге это поможет прервать смертельный ход безжалостной машины для убийства? Где грань между Светом и Тьмой и как удержаться на этой грани? Курт Воннегут задает себе и всем нам один из вечных вопросов, который хотя бы раз в жизни встает перед каждым.",
       "quotes": [
+        "The medium of my war crimes was radio broadcasting",
+        "For that un-Bodovskian behaviour Bodovskov was shot",
+        "So damn typical. This used to be a day in honor of the dead y world war one, but the living couldn’t keep their grubby hands off of it, wanted the glory of the dead for themselves",
+        "Eichmann made a joke. 'Listen — ' he said, 'about those six million — '\n'Yes?' I said.\n'I could spare you a few for your book,' he said. 'I don't think I really need them all.'",
+        "A member of anti-nazi underground during the war, an Israeli agent after the war and up to the present time.\nAnd he can prove it\nGood for Heinz!",
+        "There were pictures of men hung on the barbed wire, mutilated women, bodies stacked like cordwood — all the usual furniture of world wars",
+        "So i am about to become a free man again, to wander where I please\nI find the prospect nauseating",
+        "По-моему, его волновало искусство как таковое, а не то, что я сделал. – Искусство, искусство, искусство, – сказал он мне однажды вечером. – Не знаю, почему мне понадобилось так много времени, чтобы осознать его важность. В юности я, как ни странно, его презирал. Теперь, когда я о нем думаю, мне хочется упасть на колени и плакать.",
+        "Почему я удостоил его такой подробной биографии? Для того, чтобы противопоставить себе этого невежественного полоумного расиста. Я – ни невежественный, ни полоумный. Те, чьи приказы я выполнял в Германии, были так же невежественны и полоумны, как доктор Джонс. Я знал это. Но, Боже правый, я все равно выполнял их инструкции.",
+        "– Цветные будут иметь свою собственную водородную бомбу. Они уже работают над ней. Японцы скоро сбросят ее. Остальные цветные народы окажут им честь сбросить ее первыми. – И на кого же они собираются сбросить ее? – спросил я. – Скорее всего, на Китай, – сказал он. – На другой цветной народ? – сказал я. Он посмотрел на меня с сожалением. – Кто сказал вам, что китайцы цветные? – спросил он."
       ],
       "emoji": "\uD83D\uDCFB",
       "anchor": "spy",
@@ -16,35 +26,35 @@
       "readers": {
         "anya": {
           "rating": {
-            "plot": 0,
-            "atmosphere": 0,
-            "characters": 0,
-            "total": 0
+            "plot": 5,
+            "atmosphere": 5,
+            "characters": 4,
+            "total": 5
           }
         },
         "vera": {
           "rating": {
-            "plot": 0,
-            "atmosphere": 0,
-            "characters": 0,
-            "total": 0
+            "plot": 6.5,
+            "atmosphere": 5,
+            "characters": 5,
+            "total": 6
           }
         },
         "timur": {
           "rating": {
-            "plot": 0,
-            "atmosphere": 0,
-            "characters": 0,
-            "total": 0
+            "plot": 7,
+            "atmosphere": 8,
+            "characters": 7,
+            "total": 8
           },
           "promoter": true
         },
         "dima": {
           "rating": {
-            "plot": 0,
-            "atmosphere": 0,
-            "characters": 0,
-            "total": 0
+            "plot": 7.5,
+            "atmosphere": 6,
+            "characters": 9,
+            "total": 7
           }
         }
       }
