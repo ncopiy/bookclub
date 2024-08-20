@@ -127,6 +127,7 @@ h1 {
   justify-content: center;
   display: flex;
   margin: 0;
+  text-align: center;
 }
 h2 {
   font-family: title-font;
@@ -135,6 +136,7 @@ h2 {
   justify-content: center;
   display: flex;
   margin: 0;
+  text-align: center;
 }
 p.main-pic {
   justify-content: center;
