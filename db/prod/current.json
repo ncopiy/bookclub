@@ -6,7 +6,7 @@
       "pics": [
         "db/pics/0010.jpg"
       ],
-      "ts_end": "читаем...",
+      "ts_end": "06.01.2025",
       "annotation": "Одиннадцатилетний мальчик-сирота Гарри Поттер живет в семье своей тетки и даже не подозревает, что он - настоящий волшебник. Но однажды прилетает сова с письмом для него, и жизнь Гарри Поттера изменяется навсегда. Он узнает, что зачислен в Школу Чародейства и Волшебства, выясняет правду о загадочной смерти своих родителей, а в результате ему удается раскрыть секрет философского камня...",
       "quotes": [
 
@@ -17,35 +17,35 @@
       "readers": {
         "anya": {
           "rating": {
-            "plot": 0,
-            "atmosphere": 0,
-            "characters": 0,
+            "plot": 8,
+            "atmosphere": 9,
+            "characters": 8,
             "total": 0
           },
           "promoter": true
         },
         "vera": {
           "rating": {
-            "plot": 0,
-            "atmosphere": 0,
-            "characters": 0,
-            "total": 0
+            "plot": 8,
+            "atmosphere": 9,
+            "characters": 9,
+            "total": 8
           }
         },
         "timur": {
           "rating": {
-            "plot": 0,
-            "atmosphere": 0,
-            "characters": 0,
-            "total": 0
+            "plot": 8,
+            "atmosphere": 8,
+            "characters": 7,
+            "total": 8
           }
         },
         "dima": {
           "rating": {
-            "plot": 0,
-            "atmosphere": 0,
-            "characters": 0,
-            "total": 0
+            "plot": 10,
+            "atmosphere": 10,
+            "characters": 10,
+            "total": 10
           }
         }
       }
@@ -56,7 +56,7 @@
       "pics": [
         "db/pics/0009.jpg"
       ],
-      "ts_end": "читаем...",
+      "ts_end": "06.01.2025",
       "annotation": "Героини «Девочек и институций» работают в государственных учреждениях культуры. Это особый мир, похожий на морок, стремящийся навязать свои непрозрачные законы каждой и каждому, кто попал туда. Жалобы в департамент, подотчетные мероприятия, квартальные премии, отчеты и выговоры составляют основу повседневности этого мира. Девочки здесь — вторичный элемент системы, на котором, впрочем, вся эта система и держится. С системой они вступают в сложные и нередко созависимые отношения: живут по ее законам, иногда бунтуют, иногда подчиняются, скорбят, радуются и танцуют, уходят и возвращаются. Дарья Серенко попыталась описать этот мир девочек и институций, чтобы сделать голоса сотен девочек громче и различимее за привычным шумом госмашины и официальной культуры. «Девочки и институции» — точный портрет эпохи, в которую мы живем, портрет, написанный с невидимого раньше ракурса.",
       "quotes": [
 
@@ -65,352 +65,28 @@
       "anchor": "girls",
       "locale": "ru",
       "readers": {
-        "anya": {
-          "rating": {
-            "plot": 0,
-            "atmosphere": 0,
-            "characters": 0,
-            "total": 0
-          },
-          "promoter": true
-        },
-        "vera": {
-          "rating": {
-            "plot": 0,
-            "atmosphere": 0,
-            "characters": 0,
-            "total": 0
-          }
-        },
-        "timur": {
-          "rating": {
-            "plot": 0,
-            "atmosphere": 0,
-            "characters": 0,
-            "total": 0
-          }
-        },
-        "dima": {
-          "rating": {
-            "plot": 0,
-            "atmosphere": 0,
-            "characters": 0,
-            "total": 0
-          }
-        }
-      }
-    },
-    {
-      "title": "Ночные дороги",
-      "author": "Гайто Газданов",
-      "pics": [
-        "db/pics/0008.jpg"
-      ],
-      "ts_end": "03.11.2024",
-      "annotation": "Гайто Газданов принадлежит к тому кругу русских писателей, которых в России долгое время не знали и не читали. Примкнув после революции к белому движению, он так и не вернулся на родину, разделив судьбу многих русских эмигрантов. Живя в Париже, работал портовым грузчиком, мойщиком паровозов, рабочим, шофером такси. Свои первые рассказы Г. Газданов публиковал в парижском журнале «Воля России», а его первый роман, сразу принесший успех, вышел в Париже в 1929 году. Раннего Газданова сравнивали с Прустом, Достоевским и Кафкой, позднего — с Альбером Камю, Жюльеном Грином и Марио Сольдати. После войны Газданов долгие годы работал на радио «Свобода», его пере дачи о классической и современной русской литературе собирали сотни слушателей. Его роман «Ночные дороги» (1941) — это не только выдающееся произведение литературы, но и одно из немногих подлинно правдивых свидетельств реальных событий и духовной истории русской эмиграции.",
-      "quotes": [
-        "конечно, жаль, что вы не француз, но это не ваша вина.",
-        "Если бы мы не были ежедневными свидетелями самых нелогичных и неожиданных на первый взгляд соединений, жизнь свелась бы к алгебре.",
-        "Все, без исключения, теоретики социальных и экономических систем — мне это казалось очевидным — имели очень особенное представление о так называемом пролетариате, который был предметом их изучения; они все рассуждали так, как если бы они сами — с их привычкой к культурной жизни, с их интеллигентскими требованиями — ставили себя в положение рабочего; и путь пролетариата представлялся им неизбежно чем-то вроде обратного их пути к самим себе. Но мои разговоры по этому поводу обычно не приводили ни к чему — и убедили меня лишний раз, что большинство людей не способны к тому титаническому усилию над собой, которое необходимо, чтобы постараться понять человека чужой среды, чужого происхождения и которого мозг устроен иначе, чем они привыкли себе его представлять.",
-        "— Нет, спасибо, дорогой друг, я пойду домой, — сказал я.\n— Может быть, во мне тоже дремлет любитель театральных эффектов: я хотел бы, чтобы к воспоминанию об этом вечере и о нашей с вами прогулке не прибавились бы некоторые моменты, которые нарушают цельность впечатления. Если бы я был автором, я бы их не допустил; будучи только вашим спутником и собеседником, я предпочитаю расстаться с вами. Спокойной ночи."
-      ],
-      "emoji": "\uD83D\uDE95",
-      "anchor": "taxi",
-      "locale": "ru",
-      "readers": {
-        "anya": {
-          "rating": {
-            "plot": 4,
-            "atmosphere": 8,
-            "characters": 8,
-            "total": 6
-          }
-        },
-        "vera": {
-          "rating": {
-            "plot": 8,
-            "atmosphere": 8,
-            "characters": 9,
-            "total": 7
-          }
-        },
-        "dima": {
-          "rating": {
-            "plot": 7,
-            "atmosphere": 10,
-            "characters": 8,
-            "total": 7
-          },
-          "promoter": true
-        }
-      }
-    },
-    {
-      "title": "Мать Тьма",
-      "author": "Курт Воннегут",
-      "pics": [
-        "db/pics/0007.jpg"
-      ],
-      "ts_end": "19.08.2024",
-      "annotation": "Один из лучших, самых глубоких и страстных романов Курта Воннегута – роман, неожиданно для него простой и реалистичный по форме. История Говарда Кэмпбелла – героя и преступника, американского писателя, живущего в гитлеровской Германии, разведчика, вынужденного выдавать себя за ярого нациста и вести пропагандистские передачи на радио.\nМожно ли во имя победы добра служить злу? Проповедовать насилие, даже если знаешь, что в конечном итоге это поможет прервать смертельный ход безжалостной машины для убийства? Где грань между Светом и Тьмой и как удержаться на этой грани? Курт Воннегут задает себе и всем нам один из вечных вопросов, который хотя бы раз в жизни встает перед каждым.",
-      "quotes": [
-        "The medium of my war crimes was radio broadcasting",
-        "For that un-Bodovskian behaviour Bodovskov was shot",
-        "So damn typical. This used to be a day in honor of the dead y world war one, but the living couldn’t keep their grubby hands off of it, wanted the glory of the dead for themselves",
-        "Eichmann made a joke. 'Listen — ' he said, 'about those six million — '\n'Yes?' I said.\n'I could spare you a few for your book,' he said. 'I don't think I really need them all.'",
-        "A member of anti-nazi underground during the war, an Israeli agent after the war and up to the present time.\nAnd he can prove it\nGood for Heinz!",
-        "There were pictures of men hung on the barbed wire, mutilated women, bodies stacked like cordwood — all the usual furniture of world wars",
-        "So i am about to become a free man again, to wander where I please\nI find the prospect nauseating",
-        "По-моему, его волновало искусство как таковое, а не то, что я сделал. – Искусство, искусство, искусство, – сказал он мне однажды вечером. – Не знаю, почему мне понадобилось так много времени, чтобы осознать его важность. В юности я, как ни странно, его презирал. Теперь, когда я о нем думаю, мне хочется упасть на колени и плакать.",
-        "Почему я удостоил его такой подробной биографии? Для того, чтобы противопоставить себе этого невежественного полоумного расиста. Я – ни невежественный, ни полоумный. Те, чьи приказы я выполнял в Германии, были так же невежественны и полоумны, как доктор Джонс. Я знал это. Но, Боже правый, я все равно выполнял их инструкции.",
-        "– Цветные будут иметь свою собственную водородную бомбу. Они уже работают над ней. Японцы скоро сбросят ее. Остальные цветные народы окажут им честь сбросить ее первыми. – И на кого же они собираются сбросить ее? – спросил я. – Скорее всего, на Китай, – сказал он. – На другой цветной народ? – сказал я. Он посмотрел на меня с сожалением. – Кто сказал вам, что китайцы цветные? – спросил он."
-      ],
-      "emoji": "\uD83D\uDCFB",
-      "anchor": "spy",
-      "locale": "ru",
-      "readers": {
-        "anya": {
-          "rating": {
-            "plot": 5,
-            "atmosphere": 5,
-            "characters": 4,
-            "total": 5
-          }
-        },
         "vera": {
           "rating": {
             "plot": 6.5,
-            "atmosphere": 5,
-            "characters": 5,
+            "atmosphere": 8,
+            "characters": 6,
             "total": 6
           }
         },
         "timur": {
           "rating": {
-            "plot": 7,
+            "plot": 6,
             "atmosphere": 8,
-            "characters": 7,
-            "total": 8
-          },
-          "promoter": true
+            "characters": 6,
+            "total": 6
+          }
         },
         "dima": {
           "rating": {
             "plot": 7.5,
-            "atmosphere": 6,
-            "characters": 9,
-            "total": 7
-          }
-        }
-      }
-    },
-    {
-      "title": "Коронация, или Последний из романов",
-      "author": "Борис Акунин",
-      "pics": [
-        "db/pics/0006.jpg"
-      ],
-      "ts_end": "14.07.2024",
-      "annotation": "Накануне коронации будущего императора Николая II международный преступник похищает малолетнего сына одного из великих князей, требуя в качестве выкупа знаменитый бриллиант \"Орлов\" с коронационного скипетра. Судьба династии оказалась в руках афериста. Если в день коронации на скипетре не будет бриллианта, это вызовет международный скандал. Однако скандал разразится, если преступник убьет сына великого князя и подбросит части тела мальчика по всей Москве...",
-      "quotes": [
-        "Сразу видно, что человек достиг пика своей карьеры и дальше ему хода не будет, так и просидит до пенсии в московском захолустье.",
-        "Впереди на огромных жеребцах ехали двенадцать конных жандармов, и какой-то насмешливый голос за моей спиной довольно громко сказал:\n-C'est symbolique, n'est ce pas? Сразу видно, кто у нас в России главный.",
-        "Чеперь я видзю, сьто вы дзействичерьно содзяреете. Вы настоясий самурай, и я принимаю ваши идзвинения. Не нузьно харакири.",
-        "Недаром говорят: раньше Москва стояла на семи холмах, а теперь на одном бугре.",
-        "В каком-то романе я читал, что человек по мере прожитых лет постепенно создаёт собственный автопортрет, нанося на гладкий холст своей доставшейся от рождения парсуны узор из морщин, складок, вмятин и выпуклостей. Как известно, морщины могут быть умными и глупыми, добрыми и злыми, весёлыми и печальными. И под воздействием этого рисунка, наносимого самой жизнью, одни с годами становятся красивее, а другие уродливее.",
-        "Уж не сказывалась ли в этом спотыкании на звуках родной речи скрытая враждебность к России и всему русскому?",
-        "Вероятнее всего, спасением я был вновь обязан Фандорину, хоть думать об этом и неприятно.",
-        "Она была не в себе — это ясно. Иначе она ни за что не обратилась бы ко мне на «ты».",
-        "Изволил выпить одиннадцать рюмок, устал и после почивал до самой Москвы."
-      ],
-      "emoji": "\uD83D\uDC51",
-      "anchor": "orloff",
-      "locale": "ru",
-      "readers": {
-        "anya": {
-          "rating": {
-            "plot": 8,
-            "atmosphere": 8,
-            "characters": 7,
-            "total": 8
-          }
-        },
-        "vera": {
-          "rating": {
-            "plot": 7,
-            "atmosphere": 8,
-            "characters": 7,
-            "total": 7.5
-          },
-          "promoter": true
-        },
-        "timur": {
-          "rating": {
-            "plot": 9,
-            "atmosphere": 8,
-            "characters": 8,
-            "total": 8.5
-          }
-        },
-        "dima": {
-          "rating": {
-            "plot": 9,
-            "atmosphere": 9,
-            "characters": 8,
-            "total": 8
-          }
-        }
-      }
-    },
-    {
-      "title": "Калечина-Малечина",
-      "author": "Евгения Некрасова",
-      "pics": [
-        "db/pics/0005.jpg"
-      ],
-      "ts_end": "01.06.2024",
-      "annotation": "Девочка Катя живёт с родителями в маленьком городе на одиннадцатом этаже обычного панельного дома. Миру вокруг Катя не нужна: \"невыросшие\" дразнят, а у \"выросших\" нет на неё сил и времени. И Катя находит для себя выход. Но тут вмешивается Кикимора, живущая за плитой на кухне. Вместе они отправляются в опасное путешествие и невольно превосходят по жестокости тех, кто калечил их.",
-      "quotes": [
-      ],
-      "emoji": "\uD83E\uDDE4",
-      "anchor": "kikimora",
-      "locale": "ru",
-      "readers": {
-        "anya": {
-          "rating": {
-            "plot": 8,
-            "atmosphere": 10,
-            "characters": 9,
-            "total": 9
-          },
-          "promoter": true
-        },
-        "dima": {
-          "rating": {
-            "plot": 7,
-            "atmosphere": 9,
-            "characters": 10,
-            "total": 8
-          }
-        }
-      }
-    },
-    {
-      "title": "Лавр",
-      "author": "Евгений Водолазкин",
-      "pics": [
-        "db/pics/0004.jpg"
-      ],
-      "ts_end": "01.04.2024",
-      "annotation": "Давным-давно жил да был в Рукиной слободе Арсений. Судьба его не щадила: совсем маленьким он остался сиротой, родители погибли от мора. С тех пор будущего целителя воспитывал дед Христофор, который успевает передать Арсению секреты врачевания.\nА потом в жизни повзрослевшего и возмужавшего главного героя происходит страшная трагедия: гибнет его возлюбленная Устина и их ребенок.\nЭта тяжелая потеря превращает талантливого врача в юродивого, стремящегося исцелить всех нуждающихся и помочь каждому человеку с помощью трав и молитв. Так начинается сложный и долгий путь старца Лавра…",
-      "quotes": [
-        "Проводивший дни жизни своей в доме у кладбища, дни своей смерти он будет проводить на кладбище у дома.",
-        "В принципе, ответил старец, мне нечего тебе сказать. Разве что: живи, друже, поближе к кладбищу. Ты такой дылда, что нести тебя туда будет тяжело.",
-        "Этот человек способен рассуждать здраво, сказал Арсений Устине. С таким и в самом деле можно отправиться в Иерусалим.",
-        "Как раз в Венеции я подумал о том, что повторения на свете нет: существует только подобие.",
-        "Отчего ж это я тебе земляк?\nВошедший подмигнул. Ты оттого земляк, что уже, считай, земле принадлежишь. (Из-за голенища сапога достал нож.) Я тебя туда и отправлю.",
-        "что в вымени тебе моем?",
-        "Я бы даже сказал, что свободны не люди, а человек. Скрещение же человеческих воль уподоблю блохам в сосуде: их движение очевидно, но разве оно имеет общую направленность? Потому у истории нет цели, как нет ее и у человечества. Цель есть только у человека. И то не всегда."
-      ],
-      "emoji": "\uD83D\uDC41\uFE0F",
-      "anchor": "lavr",
-      "locale": "ru",
-      "readers": {
-        "anya": {
-          "rating": {
-            "plot": 8,
-            "atmosphere": 8,
-            "characters": 7,
-            "total": 6.5
-          }
-        },
-        "vera": {
-          "rating": {
-            "plot": 8,
             "atmosphere": 7,
-            "characters": 7,
-            "total": 7
-          }
-        },
-        "timur": {
-          "rating": {
-            "plot": 7,
-            "atmosphere": 8,
-            "characters": 7,
+            "characters": 5,
             "total": 6
-          }
-        },
-        "dima": {
-          "rating": {
-            "plot": 8.5,
-            "atmosphere": 10,
-            "characters": 7,
-            "total": 9
-          },
-          "promoter": true
-        }
-      }
-    },
-    {
-      "title": "Neverwhere",
-      "author": "Neil Gaiman",
-      "pics": [
-        "db/pics/0003.jpg"
-      ],
-      "ts_end": "16.01.2024",
-      "annotation": "Under the streets of London lies a world most people could never dream of.\nWhen Richard Mayhew stops to help a girl he finds bleeding in the street, his unremarkable life changes in an instant.\nThis act of kindness leads him to a place filled with murderers and angels, pale girls in black velvet, a Beast in a labyrinth and an Earl who holds Court in a tube train. It is strangely familiar yet utterly bizarre.\nHere is London Below, the city of people who have fallen between the cracks. And for Richard Mayhew, it's just the beginning.",
-      "quotes": [
-        "Richard paused for a moment. If ever, he decided, they made disorganization an Olympic sport, he could be disorganized for Britain",
-        "He calls himself the marquis de Carabas,\" he said. \"He's a fraud and a cheat and possibly even something of a monster. If you're ever in trouble, go to him. He will protect you, girl. He has to.",
-        "\"What's it like then?\" asked Old Bailey. \"Being dead?\"The marquis sighed. And then he twisted his lips up into a smile, and with a glitter of his old self, he replied, \"Live long enough, Old Bailey, and you can find out for yourself.",
-        "He nodded to himself, glumly, hoping to give the vague impression of being a man in need of a corpse who was disappointed by the selection but was going to have to make do with what they had.",
-        "Gary was talking about taxis. He was not saying anything original, or even interesting. He was simply fulfilling his obligation as a Londoner to grumble about taxis.",
-        "Richard had noticed that events were cowards: they didn't occur singly, but instead they would run in packs and leap out at him all at once",
-        "Mr. Croup and Mr. Vandemar had set up their home in the cellar of a Victorian hospital, closed down ten years earlier because of National Health Service budget cutbacks.",
-        "Lost Property. Roll up, roll up, and see for yourself. Lost property. None of your found things here. Everything guaranteed properly lost.",
-        "After that the blood began to flow. Wet, red blood in enormous quantities, for Varney was a big man, and he had been keeping it all inside.",
-        "Skies, thought Old Bailey, in a satisfied sort of a way. Never a two of them alike. Not by day nor not by night, neither. He was a bit of a connoisseur of skies, was Old Bailey, and this was a good 'un.",
-        "that was okay. Nice food. And no one was trying to kill us.\"\"I'm sure that will remedy itself as the day goes on,\" said Hunter, accurately.",
-        "The ATM took his card with a whirr. PLEASE ENTER YOUR PIN NUMBER, it said. Richard typed in his secret pin number (D-I-C-K).",
-        "\"First question. Who are you working for?\"\n\"Oh, that's an easy one,\" said Mr. Croup. \"That's a simple answer. We are working for our employer, who wishes to remain nameless.\"",
-        "You've a good heart. Sometimes that's enough to see you safe wherever you go. But mostly, it's not.",
-        "She smiled again. \"Do you like cat?\" she said.\n\"Yes,\" said Richard. \"I quite like cats.\"\nAnaesthesia looked relieved. \"Thigh?\" she asked, \"or breast?\""
-      ],
-      "emoji": "\uD83D\uDC00",
-      "anchor": "neverwhere",
-      "locale": "en",
-      "readers": {
-        "anya": {
-          "rating": {
-            "plot": 6,
-            "atmosphere": 8.6,
-            "characters": 7.7,
-            "total": 7.6
-          }
-        },
-        "vera": {
-          "rating": {
-            "plot": 6.5,
-            "atmosphere": 7.5,
-            "characters": 6,
-            "total": 7
-          }
-        },
-        "timur": {
-          "rating": {
-            "plot": 7.00000003,
-            "atmosphere": 9,
-            "characters": 7,
-            "total": 8.5
-          },
-          "promoter": true
-        },
-        "dima": {
-          "rating": {
-            "plot": 7,
-            "atmosphere": 9,
-            "characters": 8.5,
-            "total": 9
           }
         }
       }
