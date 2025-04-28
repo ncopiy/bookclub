@@ -11,6 +11,11 @@
       "source": "",
       "inner": [
         {
+          "name": "2024",
+          "source": "2024.json",
+          "tag": "2024"
+        },
+        {
           "name": "2023",
           "source": "2023.json",
           "tag": "2023"
