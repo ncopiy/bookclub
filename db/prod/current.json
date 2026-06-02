@@ -1,6 +1,115 @@
 {
   "posts": [
     {
+      "title": "Повседневная жизнь в Северной Корее",
+      "author": "Барбара Демик",
+      "pics": [
+        "db/pics/0017.jpg"
+      ],
+      "ts_end": "читаем...",
+      "annotation": "Страшное в своей безыскусности и документальной точности, свободное от излишней патетики, искреннее и динамичное повествование приоткрывает привычную завесу конспиративности, тщательно поддерживаемую спецслужбами КНДР. Достоверность проникновенного рассказа о быте и нравах в КНДР гарантируют рассказы ее бывших жителей, которым удалось сбежать из \"Страны утренней свежести\", а также данные и цифры из самых авторитетных источников.",
+      "quotes": [],
+      "emoji": "\uD83C\uDDF0\uD83C\uDDF5",
+      "anchor": "northkorea",
+      "locale": "ru",
+      "readers": {
+        "anya": {
+          "rating": {
+            "plot": 0,
+            "atmosphere": 0,
+            "characters": 0,
+            "total": 0
+          },
+          "promoter": true
+        },
+        "vera": {
+          "rating": {
+            "plot": 0,
+            "atmosphere": 0,
+            "characters": 0,
+            "total": 0
+          }
+        },
+        "timur": {
+          "rating": {
+            "plot": 0,
+            "atmosphere": 0,
+            "characters": 0,
+            "total": 0
+          }
+        },
+        "dima": {
+          "rating": {
+            "plot": 0,
+            "atmosphere": 0,
+            "characters": 0,
+            "total": 0
+          }
+        }
+      }
+    },
+    {
+      "title": "Йеллоуфейс",
+      "author": "Ребекка Куанг",
+      "pics": [
+        "db/pics/0016.jpg"
+      ],
+      "ts_end": "01.06.2026",
+      "annotation": "В ночь смерти Афины Лю, автора нескольких нашумевших бестселлеров, ее коллега Джун Хэйворд крадет из дома погибшей черновик романа и, доработав, выдает за свой. Деньги, почести, премии — восторг от собственного вознесения на писательский Олимп кружит голову, ведь все, о чем грезила Джун, теперь сбывается на глазах, и никто никогда не узнает… Но на одной из встреч с читателями Джун видит то, чего не может быть. Это невозможно. Это противоречит здравому смыслу. Афина Лю жива? Или это ее мстительный призрак?",
+      "quotes": [
+        "She was too pretty, too successful, too suspiciously clean to have nothing on her ledger. She had it coming for her, and I'm sure some blowback like this would have happened sooner or later, even if she hadn't choked to death on a pandan pancake.",
+        "Those memories don't make me cry—I couldn't describe this as pain—but I do stare at the wall and mutter, \"What the fuck?\" several times a day.",
+        "I've made it. I've fucking made it. I'm living Athena's life. I'm experiencing publishing the way it's supposed to work.",
+        "I see what she's getting at. \"I am not Chinese,\" I say curtly. \"If that's what you're asking. It's not 'own voices,' or whatever you want to call it. Is that a problem?\"\n\n\"No, no, not at all, we're just covering our bases. And you're not . . . anything else?\"",
+        "I never lied. That's important. I never pretended to be Chinese, or made up life experiences that I didn't have. It's not fraud, what we're doing.... And if anyone makes assumptions, or connects the dots the wrong way, doesn't that say far more about them than me?",
+        "(It is at this point that I determine Candice exists entirely to complain about microaggressions.)",
+        "I learn it's important to be anti-PRC (that's the People's Republic of China) but pro-China (I'm not terribly sure how that's different).",
+        "I'm not fooling anyone on purpose. I don't have a big sign that says WHITE!",
+        "I'm a bit nervous that The Last Front is too commercially successful to win anything. I'm told that awards committees want to seem more tasteful than the proletariat",
+        "Racism is bad, but you can still send death threats to Karens.",
+        "Там вообще с продажами сложно. Если ты нравишься французам, значит, делаешь что-то глубоко не так",
+        "Я пробовала расспрашивать Тома о его работе, но что уж такого может вам рассказать про свои будни айти-специалист?"
+      ],
+      "emoji": "\uD83D\uDFE1",
+      "anchor": "yellow",
+      "locale": "ru",
+      "readers": {
+        "anya": {
+          "rating": {
+            "plot": 8,
+            "atmosphere": 9,
+            "characters": 8,
+            "total": 9
+          }
+        },
+        "vera": {
+          "rating": {
+            "plot": 7,
+            "atmosphere": 9,
+            "characters": 8,
+            "total": 8
+          }
+        },
+        "timur": {
+          "rating": {
+            "plot": 7,
+            "atmosphere": 9,
+            "characters": 9,
+            "total": 9
+          }
+        },
+        "dima": {
+          "rating": {
+            "plot": 7,
+            "atmosphere": 8,
+            "characters": 9,
+            "total": 8
+          },
+          "promoter": true
+        }
+      }
+    },
+    {
       "title": "Отягощенные злом, или Сорок лет спустя",
       "author": "Аркадий Стругацкий. Борис Стругацкий",
       "pics": [
